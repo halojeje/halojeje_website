@@ -1,4 +1,5 @@
 import 'dart:io';
+
 import 'package:flutter/material.dart';
 
 class ImageHelper {
@@ -86,4 +87,3 @@ ImageProvider<Object> getAvatarImage(String? photoUrl) =>
     ImageHelper.getAvatarImage(photoUrl);
 ImageProvider<Object> getPetImage(String? photoUrl) =>
     ImageHelper.getPetImage(photoUrl);
-
